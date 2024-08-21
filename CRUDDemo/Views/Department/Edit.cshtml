@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Edit Department";
+}
+@model Department
+
+<h1 class="bg-info text-white">Create Department</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <button type="submit" button="btn btn-primary">Update Department</button>
+    </div>
+</form>
